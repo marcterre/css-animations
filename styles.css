@@ -22,7 +22,7 @@ div {
 }
 
 .div_1:hover {
-  transform: rotate(45deg);
+  transform: rotate(-45deg);
   transition-duration: 500ms;
   background-color: rgb(255, 81, 0);
   color: white;
@@ -44,4 +44,23 @@ button {
 .button_2-clicked {
   transform: rotate(180deg);
   transition: 0.5s;
+}
+
+.button_1-img {
+  background-image: url(/images/bees.png);
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+  left: 80px;
+  top: 100px;
+  opacity: 70%;
+  width: 500px;
+}
+
+.img-hidden {
+  visibility: hidden;
 }
