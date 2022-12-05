@@ -1,0 +1,22 @@
+body {
+  background-color: rgba(251, 193, 222, 0.705);
+  text-align: center;
+}
+
+.section_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+}
