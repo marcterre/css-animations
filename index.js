@@ -20,9 +20,11 @@ button2.addEventListener("click", () => {
     button2.textContent = alternativText;
     button2.style.backgroundColor = "rgb(255, 81, 0)";
     button2.style.color = "white";
+    button2.classList.add("button_2-clicked");
   } else {
     button2.textContent = startText;
     button2.style.backgroundColor = "";
     button2.style.color = "";
+    button2.classList.remove("button_2-clicked");
   }
 });

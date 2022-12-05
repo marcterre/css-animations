@@ -40,3 +40,8 @@ button {
 .button_3 {
   border-radius: 100px;
 }
+
+.button_2-clicked {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
