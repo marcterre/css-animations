@@ -1,0 +1,66 @@
+body {
+  background-color: rgba(251, 193, 222, 0.705);
+  text-align: center;
+}
+
+.section_div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.div_1 {
+  border-radius: 10px;
+}
+
+.div_1:hover {
+  transform: rotate(-45deg);
+  transition-duration: 500ms;
+  background-color: rgb(255, 81, 0);
+  color: white;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+}
+
+.button_1,
+.button_3 {
+  border-radius: 100px;
+}
+
+.button_2-clicked {
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+
+.button_1-img {
+  background-image: url(/images/bees.png);
+  width: 100px;
+  height: 100px;
+}
+
+img {
+  position: absolute;
+  z-index: -1;
+  left: 80px;
+  top: 100px;
+  opacity: 70%;
+  width: 500px;
+}
+
+.img-hidden {
+  visibility: hidden;
+}
